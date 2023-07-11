@@ -1,9 +1,7 @@
 #!/bin/bash
 read -p "Enter the file name: " file_name
 read -p "Enter your input: " user_input
-echo -e '#include<stdio.h>\n'"$user_input" > "$file_name"
 chmod +x "$file_name"
-echo "Script file '$file_name' created successfully."
 git add .
 git commit -m "Shell variables and expansions"
 git push
