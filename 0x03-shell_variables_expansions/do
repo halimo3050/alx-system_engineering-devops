@@ -1,9 +1,0 @@
-#!/bin/bash
-read -p "Enter the file name: " file_name
-read -p "Enter your input: " user_input
-chmod +x "$file_name"
-git add .
-git commit -m "Shell variables and expansions"
-git push
-echo Well Done !
-
